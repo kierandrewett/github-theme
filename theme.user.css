@@ -184,6 +184,10 @@ regexp("^https?://www\.zuora\.com.*github\.com.*"),
 domain("githubusercontent.com"),
 domain("www.githubstatus.com"),
 domain("stylishthemes.github.io") {
+    .contrib-number {
+        color: var(--ghd-body-color) !important;
+    }
+
     :root {
         /* github dark vars */
         --ghd-bg-custom: /*[[bg-custom]]*/;
