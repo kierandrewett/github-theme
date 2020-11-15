@@ -187,8 +187,18 @@ domain("stylishthemes.github.io") {
     .contrib-number {
         color: var(--ghd-body-color) !important;
     }
+    
+    .Box, .Box-body, .border, .Box-header, .Box-row {
+        border: none !important;
+    }
+    
+    .Box-header {
+        margin: 0px 0px 0 !important;
+    }
 
     :root {
+        --color-border-primary: transparent !important;
+        
         /* github dark vars */
         --ghd-bg-custom: /*[[bg-custom]]*/;
         --ghd-bg-img: /*[[bg-choice]]*/;
